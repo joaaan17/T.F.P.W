@@ -1,0 +1,95 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>practica2</display-name>
+
+  <welcome-file-list>
+    <welcome-file>empresa1.html</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>tienda.Login</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Registro</servlet-name>
+    <servlet-class>tienda.Registro</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Registro</servlet-name>
+    <url-pattern>/Registro.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RecogerCarrito</servlet-name>
+    <servlet-class>tienda.RecogerCarrito</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>RecogerCarrito</servlet-name>
+    <url-pattern>/RecogerCarrito.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Tramitacion</servlet-name>
+    <servlet-class>tienda.Tramitacion</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Tramitacion</servlet-name>
+    <url-pattern>/Tramitacion.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EliminarPedido</servlet-name>
+    <servlet-class>tienda.EliminarPedido</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>EliminarPedido</servlet-name>
+    <url-pattern>/eliminarPedido.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CerrarSesion</servlet-name>
+    <servlet-class>tienda.CerrarSesion</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>CerrarSesion</servlet-name>
+    <url-pattern>/CerrarSesion.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ModificarDatos</servlet-name>
+    <servlet-class>tienda.ModificarDatos</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>ModificarDatos</servlet-name>
+    <url-pattern>/ModificarDatos.html</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DetallesPedido</servlet-name>
+    <servlet-class>tienda.DetallesPedido</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>DetallesPedido</servlet-name>
+    <url-pattern>/DetallesPedido.html</url-pattern>
+  </servlet-mapping>
+
+  <session-config>
+    <session-timeout>1</session-timeout>
+  </session-config>
+</web-app>

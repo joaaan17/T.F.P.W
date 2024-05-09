@@ -1,0 +1,589 @@
+.navbar-icons-right a,
+.navbar-icons-right a:visited, /* Enlaces visitados */
+.navbar-icons-right a:hover,   /* Enlaces al pasar el ratón */
+.navbar-icons-right a:focus,   /* Enlaces al estar en foco */
+.navbar-icons-right a:active { /* Enlaces al hacer clic */
+  text-decoration: none;       /* Elimina el subrayado de los enlaces */
+  outline: none;               /* Elimina el contorno que aparece al hacer clic */
+}
+.navbar{
+    position: absolute;
+    border-bottom: 2px solid #ffffff;
+}
+
+.nav-link{
+    font-family: "Roboto Condensed", sans-serif;   
+}
+
+.Icono{
+    position: absolute;
+    width: 18px;
+    height: 18px;
+}
+
+#Casa2{
+    position: absolute;
+    top: 1px;
+    height: 26px;
+    left: 25px;
+}
+
+#Cesta{
+    position: relative;
+    right: 15px;
+}
+
+#Perfil{
+    position: relative;
+    right: 0px;
+}
+
+.contenedorRec{
+    display: flex;
+    justify-content: center; /* Centrado horizontal */
+    height: 100vh;
+}
+
+#Rec1{
+    position: absolute;
+    top: 600px;
+    background-color: #6C6A6A;
+    border-radius: 15px;
+}
+
+#Rec2{
+    position: absolute;
+    top: 1500px;
+    background-color: #6C6A6A;
+    border-radius: 15px;
+}
+
+#Rec3{
+    position: absolute;
+    top: 2000px;
+    background-color: #6C6A6A;
+    border-radius: 15px;
+}
+
+#Rec4{
+    position: absolute;
+    top: 2500px;
+    background-color: #6C6A6A;
+    border-radius: 15px;
+}
+
+#foto1{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.img-zoom{
+    transition: transform 0.5s ease; /* Animación suave */
+    display: block;
+}
+
+.img-zoom:hover{
+    transform: scale(1.1);
+}
+
+#pie{
+    position: absolute;
+    top: 1550px;;
+}
+
+.Textos{
+    position: relative;
+    text-align: center;
+    font-size: 70px;
+    font-family: "IMPACT", sans-serif;
+    font-style: normal;
+}
+
+#fotos1{
+    position: absolute; 
+    top: 100px;
+    right: 10px;
+    width: 400px;
+}
+
+#Text1{
+    position: absolute;
+    top: 10px;  
+    left: 50%;            
+    transform: translateX(-50%);
+    justify-content: center; /* Centra horizontalmente */
+    font-family:  sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+}
+#UBI{
+    position: relative;
+    top:0px;
+}
+
+#UbiTexto{
+    font-family: "Roboto Condensed", sans-serif;   
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.RecPerfil{
+    position: relative;
+    background-color:#ffff;
+}
+
+.colorUsername{
+    font-size:larger;
+    font-family: "Bebas Neue", sans-serif;
+    color: #212529;
+}
+
+.colorUsername2{
+    font-size:larger;
+    font-family: "Bebas Neue", sans-serif;
+    color: #ffffff;
+}
+
+#Video{
+    width: 100%;
+    height: auto;
+    z-index: 2;
+}
+
+.video-container {
+    position: relative; /* Establece la posición relativa para el contenedor */
+    width: 100%; /* El contenedor debe ocupar el ancho completo de la vista */
+    height: 100vh; /* Altura del contenedor para cubrir toda la altura de la vista */
+    overflow: hidden; /* Evita que el video desborde el contenedor */
+  }
+
+  #SNlogo{
+    position: absolute;
+    left: 44%;
+    z-index: 1;
+    font-family: "Protest Guerrilla", sans-serif;
+    color: #ffffff;
+  }
+
+  .TFPWtext{
+    font-family: "Roboto Condensed", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+#QuienesSom{
+    position: relative;
+    top: 10px;
+    font-family: "Bebas Neue", sans-serif; 
+    color:#ffffff;
+    font-size: 60px;
+    text-align: center;
+}
+
+#logoMenu {
+    position: relative;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 30px;
+  }
+
+  #graciasPorComprar{
+    position: relative;
+    
+    color: #fff;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 80px;
+  }
+
+  .logo-container {
+    position: relative;
+    display: flex;
+    transform: translateX(-60%);
+    flex-grow: 1;
+  }
+
+  #NeverToLate{
+    position: relative;
+    top: 20px;
+    width: 500px;
+    left: 10px;
+  }
+
+  #GrupoImgs{
+    position: relative;
+    top:20px;
+    left: 30px;
+    width:600px;
+    right: 10px;
+    margin-bottom: 35px;
+}
+
+#NTLbar{
+    display: flex;
+    border-bottom: 2px solid #ffffff;
+}
+
+#NTLpos{
+    position: relative;
+    justify-content: start;
+}
+  
+  .custom-button {
+    position: relative;
+    top: 20px;
+    background-color: #212529; /* Color de fondo negro */
+    color: #fff; /* Texto blanco */
+    border: 1px solid #fff; /* Borde blanco */
+    padding: 10px 30px; /* Espaciado interno alrededor del texto */
+    font-size: 16px; /* Tamaño de letra */
+    font-family: "Roboto Condensed", sans-serif; /* Tipo de letra */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa por encima */
+    outline: none; /* Elimina el contorno que aparece al hacer clic */
+    transition: background-color 0.3s ease; /* Suaviza la transición del color de fondo */
+  }
+  
+  .custom-button:hover {
+    background-color: #fff; /* Color de fondo blanco al pasar el ratón por encima */
+    color: #212529; /* Texto negro al pasar el ratón por encima */
+  }
+
+  #ContrastesUrbanos {
+    display: flex;
+    justify-content: center; /* Centra los hijos en el eje vertical si deseas centrado completo */
+  }
+  
+  .Colecciones {
+    text-align: center;
+    width: 100%;
+    font-family: "Protest Guerrilla", sans-serif;
+    color: #ffffff;
+    position: relative;
+  }
+  
+  #ada{
+    position: relative;
+    top: 50px;
+  }
+
+#prueba{
+    background-color: #212529;
+    position: relative;
+    top: 30px;
+    display: flex;
+    flex-direction: column; /* Alinea los hijos en una columna vertical */
+    justify-content: center; /* Centra los hijos horizontalmente */
+    align-items: center;
+    border-bottom: 2px solid #ffffff;
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.table2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.tabla2 .col-lg-4 {
+    padding: 0; /* Elimina el padding de las columnas */
+}
+  
+.tabla2 .col-lg-4 img {
+    width: 100%; /* Asegura que la imagen se expanda al 100% del ancho de la columna */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    display: block; /* Elimina el espacio extra debajo de las imágenes */
+  }
+
+.contenedorcolecciones{
+    background-color: #212529;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Alinea los hijos en una columna vertical */
+    justify-content: center; /* Centra los hijos horizontalmente */
+    align-items: center;
+    border-bottom: 2px solid #ffffff;
+}
+  
+#table3{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#tabla3 .col-lg-4 {
+    padding: 0; /* Elimina el padding de las columnas */
+}
+  
+#tabla3 .col-lg-4 img {
+    width: 100%; /* Asegura que la imagen se expanda al 100% del ancho de la columna */
+    height: auto; /* Mantiene la proporción de aspecto de la imagen */
+    display: block; /* Elimina el espacio extra debajo de las imágenes */
+  }
+
+#containerfotos{
+    width: 900px;
+}
+
+.IMGVocesSilenciadas{
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+#containerfotos .col-lg-4 {
+    padding: 0; /* Elimina el padding de las columnas */
+}
+  
+#containerfotos .row img{
+    height: 100%; /* Mantiene la proporción de aspecto de la imagen */
+    display: block;
+}
+
+#containerfotos .row{
+    margin-bottom: -24px; /* Esto elimina el espacio entre la primera fila y la siguiente */
+}
+
+#Instagram{
+    position: absolute;
+    right: 25px;
+}
+
+#Twitter{
+    position: absolute;
+    right: 0px;
+}
+
+#TXTFooter{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#TFPWfooter{
+    font-size: 20px;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+#contenedorFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer{
+    border-bottom: 2px solid #ffffff;
+
+}
+
+#Agradecimiento{
+    text-align: center;
+    color: #fff;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+#CosasPerfil{
+    position: relative;
+    top:10px;
+    left:10px;
+}
+
+#FotoPerfil{
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+
+.dropdown-menu{
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+@keyframes desplazamiento-ciclico {
+    0% { transform: translateX(0); }
+      100% {transform: translateX(-50%); }
+  }
+
+#contenedorTITContrastes{
+    overflow-x: hidden; /* Asegúrate de que el desbordamiento esté oculto en el contenedor */
+    
+}
+
+.titContrastes{
+    position: relative;
+    top: 5px;
+    font-family: "Protest Guerrilla", sans-serif;
+    color: #fff;
+    display: inline-block;
+    white-space: nowrap; 
+    animation: desplazamiento-ciclico 50s linear infinite;
+
+}
+
+.subtitContrastes{
+    position: relative;
+    -webkit-text-stroke: 1px white; 
+    font-family: "Protest Guerrilla", sans-serif;
+    color: transparent;
+    display: inline-block;
+    white-space: nowrap; 
+    animation: desplazamiento-ciclico 45s linear infinite;
+
+}
+
+#fotosContrastesCol img {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 95%; 
+}
+
+#fotosContrastesCol .row{
+    padding: 10px;
+}
+
+.descripcion-articulos{
+    font-family: "Roboto Condensed", sans-serif;
+    color: #ffffff;
+    padding: 0px;
+    position: relative;
+    left: -15px;
+}
+
+.boton-carrito {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    background-color: #212529; /* Color de fondo negro */
+    color: #fff; /* Texto blanco */
+    border: 1px solid #fff; /* Borde blanco */
+    padding: 7px 14px; /* Espaciado interno alrededor del texto */
+    font-size: 15px; /* Tamaño de letra */
+    font-family: "Roboto Condensed", sans-serif; /* Tipo de letra */
+    cursor: pointer; /* Cambia el cursor a una mano cuando se pasa por encima */
+    outline: none; /* Elimina el contorno que aparece al hacer clic */
+    transition: background-color 0.3s ease; /* Suaviza la transición del color de fondo */
+  }
+  
+  .boton-carrito:hover {
+    background-color: #fff; /* Color de fondo blanco al pasar el ratón por encima */
+    color: #212529; /* Texto negro al pasar el ratón por encima */
+  }
+
+.imgAdmin{
+    width: 60px;
+}
+
+.containerAdmin{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.textAdmin{
+    color:#5D5D5D;
+    font-size: 11px;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+.textAdmin2{
+    color:#fff;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #212529;
+    border: 1px solid white;
+  }
+
+  .button-group .botonhover:hover{
+    background-color: #fff; /* Color de fondo blanco al pasar el ratón por encima */
+    color: #212529; 
+  }
+  
+  .button-group button {
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button-group button:first-child {
+    border-right: 1px solid white;
+  }
+
+  .button-group button:last-child {
+    border-left: 1px solid white;
+  }
+
+  .button-group .cantidad {
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    border: 1px;
+  }
+
+  .vaciarcar{
+    display: flex;
+    position: relative;
+    top: 100px;
+    left: 550px;
+  }
+
+  .itemeliminar{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    top: 30px;
+    box-sizing: border-box;
+  }
+
+  .eliminar{
+    width: 10px;
+    height: 10px;
+    margin-top: 0px;
+  }
+
+  #preciototal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 90px;
+    left: 20px;
+  }
+
+  .textResguardo{
+    color:#212529;
+    font-size: 11px;
+    font-family: "Roboto Condensed", sans-serif;
+}
