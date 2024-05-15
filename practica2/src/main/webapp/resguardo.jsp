@@ -106,7 +106,7 @@
 									nombre = producto.getNombre(); 
 									precio = producto.getPrecio();
 									cantidad =  producto.getCantidad();
-									precioFinal += precio;
+									precioFinal += precio*cantidad;
 									%>
 									
 									<div class="container resguardo" style="color:#212529; position: relative;top: 15px;">

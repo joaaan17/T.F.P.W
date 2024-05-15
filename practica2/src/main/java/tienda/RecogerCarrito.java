@@ -17,10 +17,7 @@ public class RecogerCarrito extends HttpServlet {
         
         ArrayList<Producto> carritoJSON = new ArrayList<Producto>();
         HttpSession session = request.getSession(true); 
-        int cantidadStock;
-
         AccesoBD con = AccesoBD.getInstance();
-
     
             JsonReader jsonReader = Json.createReader(new InputStreamReader(request.getInputStream(), "utf-8"));
             JsonArray jobj = jsonReader.readArray();
@@ -28,13 +25,15 @@ public class RecogerCarrito extends HttpServlet {
             // Procesar los productos del carrito
             for (int i = 0; i < jobj.size(); i++){
                 JsonObject prod = jobj.getJsonObject(i);
-                Producto nuevo = new Producto();
-
-                nuevo.setCodigo(prod.getInt("codigo"));
-                nuevo.setCantidad(prod.getInt("cantidad"));
-                cantidadStock = con.ComprobarCantidad(nuevo.getCodigo(), nuevo.getCantidad());
+                System.err.println(prod);
+               
+                int codigo=prod.getInt("codigo");
+                int cantidadStock = con.ComprobarCantidad(codigo,prod.getInt("cantidad"));
 
                 if(cantidadStock > 0){
+                    Producto nuevo = new Producto();
+
+                    nuevo.setCodigo(codigo);
                     nuevo.setCantidad(cantidadStock);
                     nuevo.setNombre(prod.getString("nombre"));
                     nuevo.setPrecio(Float.parseFloat(prod.get("precio").toString()));

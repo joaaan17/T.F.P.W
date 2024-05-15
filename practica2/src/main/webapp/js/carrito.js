@@ -8,10 +8,10 @@ function anadirCarrito(id, nombre, precio, cantidad, talla) {
     let img = document.querySelector('.IMGproducto[data-producto-id="' + id + '"]');
     srcImagen = img.src;
 
-    producto.codigo = id; 
+    producto.codigo = parseInt(id); 
     producto.nombre = nombre; 
-    producto.cantidad = cantidad; 
-    producto.precio = precio; 
+    producto.cantidad = parseInt(cantidad); 
+    producto.precio = parseFloat(precio); 
     producto.talla = talla;
     producto.img = srcImagen;
 
