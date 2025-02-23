@@ -21,22 +21,13 @@ Este proyecto es una **aplicación web completa** desarrollada con un enfoque in
 
 ### 🔄 Conexión Frontend-Backend
 - Comunicación entre frontend y backend a través de **JavaScript**.
-- Uso de **AJAX o Fetch API** para interactuar con la base de datos sin necesidad de recargar la página.
+- Uso de AJAX para interactuar con la base de datos sin necesidad de recargar la página.
 
 ### 🛒 Funcionalidad de la Web
 - **Registro y autenticación** de usuarios.
 - **Consulta de pedidos realizados** por cada usuario.
 - **Cancelación de pedidos** en estado "pendiente".
 - **Sistema de carrito de compras**, permitiendo agregar productos antes de realizar la compra.
-
-## 🏗️ Estructura del Proyecto
-```
-📂 Proyecto
-│-- 📁 frontend (HTML, CSS, JS)
-│-- 📁 backend (Servlets, JavaScript)
-│-- 📁 database (HeidiSQL, SQL)
-│-- 📄 README.md
-```
 
 ## 📌 Conclusión
 Este proyecto integra diferentes tecnologías para ofrecer una **experiencia de compra fluida**, permitiendo la gestión eficiente de usuarios, productos y pedidos. Con un diseño desarrollado desde cero y una integración robusta entre frontend y backend, proporciona un sistema funcional y dinámico para la gestión de compras en línea.
